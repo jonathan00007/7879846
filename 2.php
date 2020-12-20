@@ -4,7 +4,8 @@ $titulo = "rica estas";
 $descripcion = "mamasota"; 
 $imagen = "https://pbs.twimg.com/profile_images/987066872481964035/HmrkpNwz.jpg";  
 
-
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: http://www.dominio.com");
 ?>
 <meta property="og:url" content="<?php echo$url;?>">
 <meta property="og:title" content="<?php echo$titulo;?> ">
