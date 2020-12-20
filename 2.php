@@ -5,8 +5,6 @@ $descripcion = "mamasota";
 $imagen = "https://pbs.twimg.com/profile_images/987066872481964035/HmrkpNwz.jpg";  
 
 
-$url="https://infosalud.infowiki.club/";
-$urlredirect= "https://infosalud.infowiki.club/";
 ?>
 <meta property="og:url" content="<?php echo$url;?>">
 <meta property="og:title" content="<?php echo$titulo;?> ">
