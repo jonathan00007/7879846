@@ -27,4 +27,7 @@ $urlredirect= "https://infosalud.infowiki.club/";
 <meta itemprop="description" content=" <?php echo$descripcion;?>">
 <meta itemprop="image" content="<?php echo$imagen;?>">
 
-<html><head><meta charset="utf-8" /><meta name="referrer" content="origin" /></head><body><script type="text/javascript" nonce="GJrD43lf">document.location.replace("https:\/\/<?php echo$urlredirect;?>\/");</script></body></html>
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: http://www.dominio.com");
+?>
